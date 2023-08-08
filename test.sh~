@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -z "$1" ]; then
+	echo "Enter file name"
+else
+	echo "File name is: "$1"
+fi
